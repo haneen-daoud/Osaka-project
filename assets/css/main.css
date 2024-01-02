@@ -1,0 +1,348 @@
+:root{
+--main-color: #ff2060;    
+}
+.header{
+    background-image: url("../img/bg_osaka.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.header-content a{
+    color: var(--main-color);
+}
+.icon{
+    width: 3rem;
+    height: 3rem;
+    transition-duration: 1s;
+
+}
+.icon:hover{
+    background-color: var(--main-color);
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: var(--main-color);
+}
+.nav-link:focus, .nav-link:hover{
+color: var(--main-color);
+}
+.title h2{
+    font-size: 4rem;
+    letter-spacing: 10px;
+    color: #cacaca;
+    font-weight: 900;
+}
+.title h3{
+    font-size:2rem ;
+    font-weight:900 ;
+}
+.about, .client{
+    background-image: url("../img/light_dot-about.jpg");
+}
+.about .about-content p:first-of-type{
+    color: var(--main-color);
+}
+.services{
+    background-image: url("../img/dark_dot-services.jpg");
+}
+.services .title h3 {
+    color: #fff;
+}
+.services .title h2 {
+    color: #222;
+}
+.services .services-item:hover h3:after{
+width: 30%;
+}
+.services .services-item h3:after{
+    content:' ';
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    transform:translatex(-50%);
+    transition: width 1s;
+    width: 10%;
+    height: 3px;
+    background-color: var(--main-color);
+    -webkit-transform:translatex(-50%);
+    -moz-transform:translatex(-50%);
+    -ms-transform:translatex(-50%);
+    -o-transform:translatex(-50%);
+    -webkit-transition: width 1s;
+    -moz-transition: width 1s;
+    -ms-transition: width 1s;
+    -o-transition: width 1s;
+}
+.services .services-item .icon{
+    background-color: #222;
+    transition: background-color 1s;
+    -webkit-transition: background-color 1s;
+    -moz-transition: background-color 1s;
+    -ms-transition: background-color 1s;
+    -o-transition: background-color 1s;
+}
+.services-item:hover .icon{
+    background-color: var(--main-color);
+}
+.clients .client img{
+    width: 200px;
+    height: 200px;
+
+}
+.carousel-indicators [data-bs-target] {
+    height: 6rem;
+    width: 4rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-indent: 0;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active
+{
+    color: var(--main-color);
+    border: none;
+}
+.nav-tabs .nav-link {
+    color: #000;
+    border: none;
+}
+
+.our-courses h2 {
+    color: var(--Grey-15, #262626);
+    font-family: Be Vietnam Pro;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 72px */
+
+  }
+  
+  .our-courses-tap {
+    display: flex;
+    gap: 400px;
+    margin-bottom: 80px;
+  }
+  
+  .our-courses-tap p {
+    color: var(--Grey-35, #59595a);
+    font-family: Be Vietnam Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+  
+  }
+  
+  
+  .our-courses-iteme {
+   
+    justify-content: center;
+     height: 100%;
+    border-radius: 12px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    background: var(--Absolute-White, #fff);
+    margin-bottom: 10px;
+  
+
+  }
+  
+  .our-courses-iteme .our-courses-img {
+    /*flex-direction: column;*/
+    border-radius: 8px;
+    height: 380px;
+    justify-content: center;
+    padding-block: 10px;
+
+  
+  }
+  
+  .our-courses-iteme .our-courses-img img {
+    /* width: fit-content;*/
+ 
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  .our-courses-iteme-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding-top: 10px;
+  
+  }
+  
+  .our-courses-iteme-info .info-left a {
+    padding: 10px 16px;
+    align-items: flex-start;
+    margin-right: 10px;
+    border-radius: 8px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    background: var(--Absolute-White, #fff);
+  
+  }
+  .col-lg-5{
+    width:calc((100% - 80px)/2);
+  }
+  .our-courses-iteme-info .info-right p {
+    color: var(--Grey-15, #262626);
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    flex-wrap: wrap;
+  }
+  
+  .our-courses-iteme-description h3 {
+    color: var(--Grey-15, #262626);
+    font-family: Be Vietnam Pro;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 36px */
+    margin-bottom: 14px;
+    flex-wrap: wrap;
+  }
+  
+  .our-courses-iteme-description p {
+    color: var(--Grey-30, #4c4c4d);
+    font-family: Be Vietnam Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+    flex-wrap: wrap;
+  }
+  .Get-it-Now {
+    padding: 18px 24px;
+    border-radius: 8px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    background: var(--White-97, #f7f7f8);
+    text-align: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+  .Get-it-Now a {
+    color: var(--Grey-15, #262626);
+    text-align: center;
+    font-family: Be Vietnam Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+    flex-wrap: wrap;
+  }
+ a{
+  text-decoration: none;
+ }
+/* CSS */
+.button-85 {
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-85:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.button-85:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+.button-27 {
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+.button-27:disabled {
+  pointer-events: none;
+}
+
+.button-27:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-27:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
